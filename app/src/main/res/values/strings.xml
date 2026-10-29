@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Reportes Municipales</string>
+    <string name="app_subtitle">Gestión de Residuos Sólidos USS</string>
+
+    <!-- Títulos de Pantallas -->
+    <string name="title_lista_reportes">Reportes de Basura</string>
+    <string name="title_nuevo_reporte">Registrar Nuevo Reporte</string>
+    <string name="title_detalle_reporte">Detalle del Reporte</string>
+    <string name="title_buscar_dni">Buscar Reportes por DNI</string>
+
+    <!-- Campos de Formulario -->
+    <string name="label_dni">DNI Ciudadano</string>
+    <string name="hint_dni">Ingrese DNI (8 dígitos)</string>
+    <string name="label_tipo_basura">Tipo de Acumulación</string>
+    <string name="label_direccion">Dirección exacta</string>
+    <string name="hint_direccion">Ej: Av. Balta 123, Chiclayo</string>
+    <string name="label_referencia">Referencia (Opcional)</string>
+    <string name="hint_referencia">Ej: Frente al parque central, junto al grifo</string>
+    <string name="label_fecha">Fecha y hora</string>
+    <string name="label_estado">Estado actual</string>
+    <string name="label_codigo">Código de Reporte</string>
+    <string name="label_codigo_format">Reporte #%1$d</string>
+    <string name="label_dni_format">DNI: %1$s</string>
+
+    <!-- Tipos de Basura -->
+    <string name="tipo_domiciliaria">DOMICILIARIA</string>
+    <string name="tipo_desmonte">DESMONTE</string>
+    <string name="tipo_maleza">MALEZA</string>
+    <string name="tipo_otros">OTROS</string>
+
+    <!-- Estados -->
+    <string name="estado_pendiente">PENDIENTE</string>
+    <string name="estado_atendido">ATENDIDO</string>
+
+    <!-- Acciones / Botones -->
+    <string name="btn_nuevo_reporte">Nuevo Reporte</string>
+    <string name="btn_buscar_dni">Buscar por DNI</string>
+    <string name="btn_cargar_mas">Cargar 5 más</string>
+    <string name="btn_registrar">Registrar Reporte</string>
+    <string name="btn_marcar_atendido">Marcar como Atendido</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_reintentar">Reintentar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_confirmar">Confirmar</string>
+
+    <!-- Diálogos y Confirmaciones -->
+    <string name="dialog_confirmar_atención_titulo">Atender Reporte</string>
+    <string name="dialog_confirmar_atención_mensaje">¿Está seguro de que desea marcar este reporte como ATENDIDO?</string>
+
+    <!-- Mensajes y Validaciones -->
+    <string name="error_dni_invalido">El DNI debe tener exactamente 8 dígitos numéricos</string>
+    <string name="error_direccion_requerida">La dirección es obligatoria (máximo 200 caracteres)</string>
+    <string name="error_tipo_requerido">Debe seleccionar un tipo de residuo</string>
+    <string name="msg_reporte_registrado">Reporte registrado exitosamente</string>
+    <string name="msg_reporte_atendido">El reporte ha sido marcado como atendido</string>
+    <string name="msg_lista_vacia">No hay reportes de acumulación registrados</string>
+    <string name="msg_busqueda_vacia">No se encontraron reportes para el DNI ingresado</string>
+    <string name="msg_cargando">Cargando información...</string>
+    <string name="msg_error_conexion">Error de conexión con el servidor. Verifique su red.</string>
+</resources>
